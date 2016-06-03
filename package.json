@@ -1,0 +1,23 @@
+{
+  "name": "mocha-cli",
+  "version": "1.0.0",
+  "description": "The local installed mocha executor.",
+  "main": "index.js",
+  "bin": {
+    "mocha": "bin/mocha.js",
+    "mocha-cli": "bin/mocha.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "hisanori",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "debug": "^2.2.0",
+    "resolve": "^1.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
