@@ -16,7 +16,7 @@ And install mocha locally each your project.
 
 Install mocha-cli globally. 
 
-    npm install -g mocha-cli
+    npm install -g git+ssh://git@github.com:paulownia/mocha-cli.git
 
 ## running
 
